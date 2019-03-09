@@ -1,0 +1,9 @@
+Google Assistant Library
+--------------------------------------
+Location in AIY image:
+/usr/local/lib/python3.5/dist-packages-linux-armv7l/google/assistant/library
+
+Installing Google Assistant Library using pip:
+https://developers.google.com/assistant/sdk/guides/library/python/embed/install-sample
+
+Might be worth installing the latest Assistant Library by following the above guide. AIY image hasn't been updated since 16th November 2018 and the last Assistant Library release was on the 20th December.
