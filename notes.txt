@@ -1,3 +1,20 @@
+Any way to see if broadcast message event is visible on the pi?
+o does a broadcast message go into the event queue?
+- Most likely not
+- previous test did not print inside foreach
+o what does an event queue look like?
+- foreach on the event queue returned by assistant.start() processes each event
+- event not processed when I did a test broadcast
+
+o What are all the EventTypes?
+- is there a type for broadcasts? might be ON_DEVICE_ACTION
+
+What happens when you install the Assistant Library?
+- Find a spare sd card
+- install raspbian on it
+- install assistant library using pip
+
+
 Google Assistant Library
 --------------------------------------
 Location in AIY image:
